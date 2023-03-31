@@ -1,0 +1,493 @@
+@font-face {
+font-family: 'Source Sans Pro Black';
+font-style: normal;
+font-weight: normal;
+src: local('Source Sans Pro Black'), url('SourceSansPro-Black/SourceSansPro-Black.woff') format('woff');
+}
+@font-face {
+font-family: 'Source Sans Pro BlackItalic';
+font-style: normal;
+font-weight: normal;
+src: local('Source Sans Pro BlackItalic'), url('SourceSansPro-Black/SourceSansPro-BlackItalic.woff') format('woff');
+}
+@font-face {
+font-family: 'Source Sans Pro Bold';
+font-style: normal;
+font-weight: normal;
+src: local('Source Sans Pro Bold'), url('SourceSansPro-Black/SourceSansPro-Bold.woff') format('woff');
+}
+@font-face {
+font-family: 'Source Sans Pro BoldItalic';
+font-style: normal;
+font-weight: normal;
+src: local('Source Sans Pro BoldItalic'), url('SourceSansPro-Black/SourceSansPro-BoldItalic.woff') format('woff');
+}
+@font-face {
+font-family: 'Source Sans Pro ExtraLight';
+font-style: normal;
+font-weight: normal;
+src: local('Source Sans Pro ExtraLight'), url('SourceSansPro-Black/SourceSansPro-ExtraLight.woff') format('woff');
+}
+@font-face {
+font-family: 'Source Sans Pro ExtraLightItalic';
+font-style: normal;
+font-weight: normal;
+src: local('Source Sans Pro ExtraLightItalic'), url('SourceSansPro-Black/SourceSansPro-ExtraLightItalic.woff') format('woff');
+}
+@font-face {
+font-family: 'Source Sans Pro Italic';
+font-style: normal;
+font-weight: normal;
+src: local('Source Sans Pro Italic'), url('SourceSansPro-Black/SourceSansPro-Italic.woff') format('woff');
+}
+@font-face {
+font-family: 'Source Sans Pro Light';
+font-style: normal;
+font-weight: normal;
+src: local('Source Sans Pro Light'), url('SourceSansPro-Black/SourceSansPro-Light.woff') format('woff');
+}
+@font-face {
+font-family: 'Source Sans Pro LightItalic';
+font-style: normal;
+font-weight: normal;
+src: local('Source Sans Pro LightItalic'), url('SourceSansPro-Black/SourceSansPro-LightItalic.woff') format('woff');
+}
+@font-face {
+font-family: 'Source Sans Pro Regular';
+font-style: normal;
+font-weight: normal;
+src: local('Source Sans Pro Regular'), url('SourceSansPro-Black/SourceSansPro-Regular.woff') format('woff');
+}
+@font-face {
+font-family: 'Source Sans Pro Semibold';
+font-style: normal;
+font-weight: normal;
+src: local('Source Sans Pro Semibold'), url('SourceSansPro-Black/SourceSansPro-Semibold.woff') format('woff');
+}
+@font-face {
+font-family: 'Source Sans Pro SemiboldItalic';
+font-style: normal;
+font-weight: normal;
+src: local('Source Sans Pro SemiboldItalic'), url('SourceSansPro-Black/SourceSansPro-SemiboldItalic.woff') format('woff');
+}
+
+
+
+
+
+
+@font-face {
+font-family: 'Avenir LT Std 95 Black';
+font-style: normal;
+font-weight: normal;
+src: local('Avenir LT Std 95 Black'), url('AvenirLTStd/AvenirLTStd-Black.woff') format('woff');
+}
+@font-face {
+font-family: 'Avenir LT Std 45 Book';
+font-style: normal;
+font-weight: normal;
+src: local('Avenir LT Std 45 Book'), url('AvenirLTStd/AvenirLTStd-Book.woff') format('woff');
+}
+@font-face {
+font-family: 'Avenir LT Std 85 Heavy';
+font-style: normal;
+font-weight: normal;
+src: local('Avenir LT Std 85 Heavy'), url('AvenirLTStd/AvenirLTStd-Heavy.woff') format('woff');
+}
+@font-face {
+font-family: 'Avenir LT Std 35 Light';
+font-style: normal;
+font-weight: normal;
+src: local('Avenir LT Std 35 Light'), url('AvenirLTStd/AvenirLTStd-Light.woff') format('woff');
+}
+@font-face {
+font-family: 'Avenir LT Std 65 Medium';
+font-style: normal;
+font-weight: normal;
+src: local('Avenir LT Std 65 Medium'), url('AvenirLTStd/AvenirLTStd-Medium.woff') format('woff');
+}
+@font-face {
+font-family: 'Avenir LT Std 55 Roman';
+font-style: normal;
+font-weight: normal;
+src: local('Avenir LT Std 55 Roman'), url('AvenirLTStd/AvenirLTStd-Roman.woff') format('woff');
+}
+@font-face {
+font-family: 'Avenir LT Std 95 Black Oblique';
+font-style: normal;
+font-weight: normal;
+src: local('Avenir LT Std 95 Black Oblique'), url('AvenirLTStd/AvenirLTStd-BlackOblique.woff') format('woff');
+}
+@font-face {
+font-family: 'Avenir LT Std 45 Book Oblique';
+font-style: normal;
+font-weight: normal;
+src: local('Avenir LT Std 45 Book Oblique'), url('AvenirLTStd/AvenirLTStd-BookOblique.woff') format('woff');
+}
+@font-face {
+font-family: 'Avenir LT Std 85 Heavy Oblique';
+font-style: normal;
+font-weight: normal;
+src: local('Avenir LT Std 85 Heavy Oblique'), url('AvenirLTStd/AvenirLTStd-HeavyOblique.woff') format('woff');
+}
+@font-face {
+font-family: 'Avenir LT Std 35 Light Oblique';
+font-style: normal;
+font-weight: normal;
+src: local('Avenir LT Std 35 Light Oblique'), url('AvenirLTStd/AvenirLTStd-LightOblique.woff') format('woff');
+}
+@font-face {
+font-family: 'Avenir LT Std 65 Medium Oblique';
+font-style: normal;
+font-weight: normal;
+src: local('Avenir LT Std 65 Medium Oblique'), url('AvenirLTStd/AvenirLTStd-MediumOblique.woff') format('woff');
+}
+@font-face {
+font-family: 'Avenir LT Std 55 Oblique';
+font-style: normal;
+font-weight: normal;
+src: local('Avenir LT Std 55 Oblique'), url('AvenirLTStd/AvenirLTStd-Oblique.woff') format('woff');
+}
+
+
+
+
+
+@font-face {
+font-family: 'Lato-Black';
+font-style: normal; font-weight: normal;
+src: local('Lato-Black'), url('Lato/Lato-Black.woff') format('woff');
+}
+@font-face {
+font-family: 'Lato-BlackItalic';
+font-style: normal; font-weight: normal;
+src: local('Lato-BlackItalic'), url('Lato/Lato-BlackItalic.woff') format('woff');
+}
+@font-face {
+font-family: 'Lato-Bold';
+font-style: normal; font-weight: normal;
+src: local('Lato-Bold'), url('Lato/Lato-Bold.woff') format('woff');
+}
+@font-face {
+font-family: 'Lato-BoldItalic';
+font-style: normal; font-weight: normal;
+src: local('Lato-BoldItalic'), url('Lato/Lato-BoldItalic.woff') format('woff');
+}
+@font-face {
+font-family: 'Lato-Hairline';
+font-style: normal; font-weight: normal;
+src: local('Lato-Hairline'), url('Lato/Lato-Hairline.woff') format('woff');
+}
+@font-face {
+font-family: 'Lato-HairlineItalic';
+font-style: normal; font-weight: normal;
+src: local('Lato-HairlineItalic'), url('Lato/Lato-HairlineItalic.woff') format('woff');
+}
+@font-face {
+font-family: 'Lato-Heavy';
+font-style: normal; font-weight: normal;
+src: local('Lato-Heavy'), url('Lato/Lato-Heavy.woff') format('woff');
+}
+@font-face {
+font-family: 'Lato-HeavyItalic';
+font-style: normal; font-weight: normal;
+src: local('Lato-HeavyItalic'), url('Lato/Lato-HeavyItalic.woff') format('woff');
+}
+@font-face {
+font-family: 'Lato-Italic';
+font-style: normal; font-weight: normal;
+src: local('Lato-Italic'), url('Lato/Lato-Italic.woff') format('woff');
+}
+@font-face {
+font-family: 'Lato-Light';
+font-style: normal; font-weight: normal;
+src: local('Lato-Light'), url('Lato/Lato-Light.woff') format('woff');
+}
+@font-face {
+font-family: 'Lato-LightItalic';
+font-style: normal; font-weight: normal;
+src: local('Lato-LightItalic'), url('Lato/Lato-LightItalic.woff') format('woff');
+}
+@font-face {
+font-family: 'Lato-Medium';
+font-style: normal; font-weight: normal;
+src: local('Lato-Medium'), url('Lato/Lato-Medium.woff') format('woff');
+}
+@font-face {
+font-family: 'Lato-MediumItalic';
+font-style: normal; font-weight: normal;
+src: local('Lato-MediumItalic'), url('Lato/Lato-MediumItalic.woff') format('woff');
+}
+@font-face {
+font-family: 'Lato-Regular';
+font-style: normal; font-weight: normal;
+src: local('Lato-Regular'), url('Lato/Lato-Regular.woff') format('woff');
+}
+@font-face {
+font-family: 'Lato-Semibold';
+font-style: normal; font-weight: normal;
+src: local('Lato-Semibold'), url('Lato/Lato-Semibold.woff') format('woff');
+}
+
+/**/
+@font-face {
+font-family: 'Lato-SemiboldItalic';
+font-style: normal; font-weight: normal;
+src: local('Lato-SemiboldItalic'), url('Lato/Lato-SemiboldItalic.woff') format('woff');
+}
+/**/
+
+@font-face {
+font-family: 'Lato-Thin';
+font-style: normal; font-weight: normal;
+src: local('Lato-Thin'), url('Lato/Lato-Thin.woff') format('woff');
+}
+@font-face {
+font-family: 'Lato-ThinItalic';
+font-style: normal; font-weight: normal;
+src: local('Lato-ThinItalic'), url('Lato/Lato-ThinItalic.woff') format('woff');
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@font-face {
+font-family: 'OpenSans-Bold';
+font-style: normal; font-weight: normal;
+src: local('OpenSans-Bold'), url('OpenSans/OpenSans-Bold.woff') format('woff');
+}
+@font-face {
+font-family: 'OpenSans-BoldItalic';
+font-style: normal; font-weight: normal;
+src: local('OpenSans-BoldItalic'), url('OpenSans/OpenSans-BoldItalic.woff') format('woff');
+}
+@font-face {
+font-family: 'OpenSans-ExtraBold';
+font-style: normal; font-weight: normal;
+src: local('OpenSans-ExtraBold'), url('OpenSans/OpenSans-ExtraBold.woff') format('woff');
+}
+@font-face {
+font-family: 'OpenSans-ExtraBoldItalic';
+font-style: normal; font-weight: normal;
+src: local('OpenSans-ExtraBoldItalic'), url('OpenSans/OpenSans-ExtraBoldItalic.woff') format('woff');
+}
+@font-face {
+font-family: 'OpenSans-Italic';
+font-style: normal; font-weight: normal;
+src: local('OpenSans-Italic'), url('OpenSans/OpenSans-Italic.woff') format('woff');
+}
+@font-face {
+font-family: 'OpenSans-Light';
+font-style: normal; font-weight: normal;
+src: local('OpenSans-Light'), url('OpenSans/OpenSans-Light.woff') format('woff');
+}
+@font-face {
+font-family: 'OpenSans-LightItalic';
+font-style: normal; font-weight: normal;
+src: local('OpenSans-LightItalic'), url('OpenSans/OpenSans-LightItalic.woff') format('woff');
+}
+@font-face {
+font-family: 'OpenSans-Regular';
+font-style: normal; font-weight: normal;
+src: local('OpenSans-Regular'), url('OpenSans/OpenSans-Regular.woff') format('woff');
+}
+@font-face {
+font-family: 'OpenSans-Semibold';
+font-style: normal; font-weight: normal;
+src: local('OpenSans-Semibold'), url('OpenSans/OpenSans-Semibold.woff') format('woff');
+}
+@font-face {
+font-family: 'OpenSans-SemiboldItalic';
+font-style: normal; font-weight: normal;
+src: local('OpenSans-SemiboldItalic'), url('OpenSans/OpenSans-SemiboldItalic.woff') format('woff');
+}
+
+
+
+
+@font-face 
+{
+	font-family: 'Righteous';
+	font-style: normal;
+	font-weight: 400;
+	src: url('righteous-v5-latin-regular.eot'); /* IE9 Compat Modes */
+	src: local('Righteous'), local('Righteous-Regular'),
+	url('righteous-v5-latin/righteous-v5-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	url('righteous-v5-latin/righteous-v5-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+	url('righteous-v5-latin/righteous-v5-latin-regular.woff') format('woff'), /* Modern Browsers */
+	url('righteous-v5-latin/righteous-v5-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+	url('righteous-v5-latin/righteous-v5-latin-regular.svg#Righteous') format('svg'); /* Legacy iOS */
+}
+
+
+/* great-vibes-regular */
+@font-face {
+font-family: 'GreatVibes-Regular';
+font-style: normal; font-weight: normal;
+src: local('GreatVibes-Regular'), url('GreatVibes-Regular/GreatVibes-Regular.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Ambriose';
+font-style: normal;
+font-weight: normal;
+src: local('Ambriose'), url('Ambroise/Ambroise-Regular.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Freshman';
+font-style: normal;
+font-weight: normal;
+src: local('Ambriose'), url('Freshman/Freshman.woff') format('woff');
+}
+
+@font-face {
+font-family: 'Century Gothic';
+font-style: normal; 
+font-weight: normal;
+src: local('centurygothic-webfont'), url('Century-Gothic/centurygothic-webfont.woff') format('woff');
+}
+
+@font-face {
+font-family: 'Century Gothic';
+font-style: normal; 
+font-weight: normal;
+src: local('CenturyGothic'), url('Century-Gothic/CenturyGothic.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Agency';
+font-style: normal; 
+font-weight: normal;
+src: local('Agency'), url('embed/Agency.woff') format('woff');
+}
+@font-face {
+font-family: 'Algerian';
+font-style: normal; 
+font-weight: normal;
+src: local('Algerian'), url('embed/Algerian.woff') format('woff');
+}
+@font-face {
+font-family: 'Elephant';
+font-style: normal; 
+font-weight: normal;
+src: local('Elephant'), url('embed/Elephant.woff') format('woff');
+}
+@font-face {
+font-family: 'ImprintMT';
+font-style: normal; 
+font-weight: normal;
+src: local('ImprintMT'), url('embed/ImprintMT.woff') format('woff');
+}
+@font-face {
+font-family: 'Lucida';
+font-style: normal; 
+font-weight: normal;
+src: local('Lucida'), url('embed/Lucida.woff') format('woff');
+}
+@font-face {
+font-family: 'ScriptMT';
+font-style: normal; 
+font-weight: normal;
+src: local('ScriptMT'), url('embed/ScriptMT.woff') format('woff');
+}
+@font-face {
+font-family: 'Centaur';
+font-style: normal; 
+font-weight: normal;
+src: local('Centaur'), url('embed/Centaur.woff') format('woff');
+}
+@font-face {
+font-family: 'Old English MT';
+font-style: normal; 
+font-weight: normal;
+src: local('Canterbury'), url('embed/Canterbury.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Times New Roman';
+font-style: normal; 
+font-weight: normal;
+src: local('TimesNewRoman'), url('embed/times-new-roman.woff') format('woff');
+}
+
+
+
+/* Langkiwa */
+
+@font-face {
+font-family: 'Copperplate Gothic Light Regular';
+font-style: normal; 
+font-weight: normal;
+src: local('Copperplate-Gothic-Light-Regular'), url('embed/Copperplate-Gothic-Light-Regular.woff') format('woff');
+}
+
+@font-face {
+font-family: 'Cooper Black';
+font-style: normal; 
+font-weight: normal;
+src: local('Cooper-Black-Regular'), url('embed/Cooper-Black-Regular.woff') format('woff');
+}
+
+/* Langkiwa */
+
+@font-face {
+font-family: 'Calibri';
+font-style: normal; 
+font-weight: normal;
+src: local('Calibri'), url('embed/Calibri.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Tungab';
+font-style: normal; 
+font-weight: normal;
+src: local('Tungab'), url('embed/Tungab.woff') format('woff');
+}
+
+@font-face {
+font-family: 'Ayar';
+font-style: normal; 
+font-weight: normal;
+src: local('Ayar'), url('embed/Ayar.woff') format('woff');
+}
+
+@font-face {
+font-family: 'Arial Bold';
+font-style: normal; 
+font-weight: normal;
+src: local('Arial Bold'), url('embed/Arial-Bold.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Catamaran Bold';
+font-style: normal; 
+font-weight: normal;
+src: local('Catamaran Bold'), url('embed/Catamaran-ExtraBold.woff') format('woff');
+}
+
+
+
+
+
+
+
+
+
+

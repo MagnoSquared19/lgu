@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+
+/* Login Properties * /
+.login-body{position:absolute;width:100%;height:auto;min-height:100%;	text-align:center;						background-color:#e9ebee;	}
+	.login-panel{display:inline-block;height:auto;width:450px;margin:20px 3%;max-width:94%;	text-align:left;	box-shadow:0px 0px 3px 0px #aaa;	background-color:#fff;		}
+		.login-panel-in{float:left;height:auto;width:90%;padding:20px 5%;	width:calc(100% - 40px);padding:calc(20px - 0px);				}
+
+			.login-hdr{float:left;height:auto;width:100%;text-align:center;							}
+				.login-logo{display:inline-block;width:80px;height:80px;							}
+				.login-text{float:left;height:auto;width:100%;	font-size:1.3em;margin:15px 0px;	}
+
+			.login-form{float:left;height:auto;width:90%;padding:20px 5%;		background-color:rgba(0,0,0,.3);	}
+				.login-ipt-fr{float:left;width:100%;height:auto;margin-bottom:15px;			}
+					.login-ipt{float:left;height:auto;width:100%;padding:8px 10px 8px 40px;margin:0px; font-size:1em;		}
+						.login-ico{float:left;width:30px;height:25px;margin:5px -98%;margin:5px calc(-100% - -5px);		background-color: redX;	}
+
+
+
+
+
+
+
+/* Login Properties end here */
+
+
+
+
+
+
+@media screen and (max-width:900px){ }
+
+/*
+body, div, b, i, button, input, a{	border-color:#fff !important;color:#fff !important;background-color:#000 !important;	}
+*/
+
+/*input{background: yellow !important;}*/
+
+
+
+
+.ccc{background-color:#ccc;			}
+.ddd{background-color:#ddd;			}
+.eee{background-color:#eee;			}
+
+.fff{background-color:#fff;			}
+.red{background-color:red;			}
+.blue{background-color:blue;		}
+.black{background-color:#000;		}
+.green{background-color:green;		}
+.brown{background-color:brown;		}
+.orange{background-color:orange;	}
+.yellow{background-color:yellow;	}
+
+

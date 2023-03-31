@@ -1,0 +1,69 @@
+/1. Category*
+A1: Frontline workers in health facilities, both national and local, private and public, health professionals and non-professionals like students in health allied profession courses, with clinical responsibilities, nursing aides, janitor and BHWs, etc.
+A2: Senior Citizens
+A3: Adults with Co-morbidities (18 and above)
+A4: Frontline personnel in essential sectors both in private and public sectors identified by IATF
+A5: NHTS and 4Ps
+
+B1: Teachers and Social Workers
+B2: Other Government Workers
+B3: Other Essential Workers
+B4: Socio-demographic groups at significantly higher risk other than senior citizens and poor population based on NHTS-PR
+B5: Overseas Filipino Workers
+B6: Other remaining workers
+
+/2. Category ID
+PRC ID
+OSCA ID
+FACILITY ID
+OTHER ID
+
+/3. Category ID Number
+/4. Philhealth ID 
+/5. PWD ID
+/6. Last Name, First Name, Middle Name
+/7. Contact Number
+/8. CURRENT RESIDENCE: UNIT/BUILDING/HOUSE NUMBER, STREET NAME 
+/9. Barangay
+/10.Gender
+/11.Birthday
+/12.Civil Status
+
+/13.Employment Status
+Government Employed
+Private Employed
+Self-Employed
+Private Practitioner
+Others
+
+
+/14. DIRECTLY IN INTERACTION WITH COVID PATIENT (yes/no)
+
+/15. PROFESSION
+/16. NAME OF EMPLOYER 
+/17. PROVINCE/HUC/ICC OF EMPLOYER
+/18. ADDRESS OF EMPLOYER
+/19. CONTACT NO. OF EMPLOYER/AGENCY:
+/20. PREGNANCY STATUS (Pregnant/ not Pregnant)
+/20. Pregnancy Status?
+/21. DRUG ALLERGY (yes/no)
+/22. FOOD ALLERGY (yes/no)
+/23. INSECT ALLERGY (yes/no)
+/24. LATEX ALLERGY (yes/no)
+/25. MOLD ALLERGY (yes/no)
+/26. PET ALLERGY (yes/no)
+27. POLLEN ALLERGY (yes/no)
+28. WITH CO-MORBIDITY (medical conditions)? (yes/no)
+29. DIAGNOSED WITH COVID-19? (yes/no)
+30. WILLING TO BE VACCINATED? (yes/no/unknown)
+
+
+
+
+
+
+
+
+
+
+

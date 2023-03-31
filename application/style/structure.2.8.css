@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+
+.ui-form{float:left;height:auto;width:100%;					}
+	.ui-form h1{float:left;height:auto;width:100%;font-size:20px;margin-bottom:20px;	font-weight:normal;	text-transform:uppercase;	}
+
+
+.ui-header{float:left;height:auto;width:100%;margin-bottom:50px;		}
+	.ui-header h1{float:left;height:auto;width:100%;line-height:40px;	}
+	.ui-header h3{float:left;height:auto;width:100%;margin:0px;			}
+
+
+.r-req-panel{float:left;height:auto;width:35%;	width:calc(400px - 0px);		}
+.r-form-panel{float:left;height:auto;width:60%;	width:calc(100% - 500px);margin-right:100px; padding-bottom:10px;	}
+.c-form-panel{float:none;display:inline-block;width:800px;max-width:100%; text-align:left;	}
+	/*.r-form-panel{resize:both;overflow:auto;margin-bottom:50px;	border-bottom:5px dashed #999;	}*/
+
+	.r-info{float:left;height:auto;width:100%;	margin-top:-30px;		}
+	.r-form{float:left;height:auto;width:90%;padding:20px 4%;margin:-30px .5% 10px .5%;width:calc(100% - 50px);padding:calc(20px - 0px);margin:-30px calc(5px - 0px) 10px calc(5px - 0px);		box-shadow:0px 0px 5px 0px #999;	border-radius:2px;		background-color:#fff;		}
+
+
+	.r-req-wrap{float:left;height:auto;width:100%;margin-bottom:20px;		}
+		.r-req-wrap li{float:left;height:auto;width:95%;margin-left:5%;	width:calc(100% - 30px);margin-left:calc(30px - 0px);	}
+		.r-info-title{float:left;height:auto;width:100%;margin-bottom:10px;	font-size:1.1em;	color:#555;		}
+
+	.form-checkbox{float:left;height:auto;width:100%;margin-bottom:15px;					}
+		.form-checkbox input{float:left;height:auto;width:40px;margin-top:3px;			}
+		.form-checkbox span{float:right;height:auto;width:95%;width:calc(100% - 40px);					}
+			.form-checkbox span p, .form-checkbox span i{float:right;height:auto;width:100%;margin-bottom:5px; color:#555;		}
+				.form-checkbox span i{font-style:italic;		}
+
+
+/* Covid19 Vaccine */
+.cv-ol{float:left;height:auto;width:100%;	list-style-type: decimal;		}
+	.cv-ol li{float:left;height:auto;width:95%;margin-left:5%; width:calc(100% - 30px); margin-left:30px;margin-bottom:15px;	}
+
+		.cv-que{float:left;height:auto;width:100%;			}
+		.cv-tag{float:left;height:auto;width:100%;margin-top:10px;	font-style:italic; color:#555;	}
+		.cv-radio{float:left;height:auto;width:100%;margin-top:15px;				}
+			.cv-radio-wrap{float:left;height:auto;width:auto;margin-right:50px;		}
+				.cv-radio input[type=checkbox], .cv-radio input[type=radio]{float:left;height:15px;width:15px;	cursor:pointer;	}
+				.cv-radio label{float:left;height:auto;width:90%; width:calc(100% - 25px); padding-left:calc(10px - 0px); cursor:pointer;	color:#555;	}
+				
+				.cv-radio input:checked ~ label{color:#3793ff;  }
+
+		.cv-waiver{float:left;height:auto;width:100%; margin-top:-10px;											}
+			.cv-waiver input{float:left;height:20px;width:20px;margin-top:5px;	cursor:pointer;	}
+			.cv-waiver p{float:right;height:auto;width:90%; width:calc(100% - 40px); line-height:20px; text-align:justify; color:#555;	}
+
+			/*.cv-radio:focus-within label{color:blue;}*/
+
+.cv-qrcode{float:left;height:auto;width:100%;margin-bottom:10px;	text-align:center;		}
+	.cv-qrcode img{display:inline-block;width:130px;height:130px;			}
+
+
+.cv-qrcode-share{float:left;height:auto;width:100%;margin:0px 0px 15px 0px;	text-align:center;		}
+	.cv-qrcode-share a{display:inline-block;width:20px;height:20px;padding:5px;margin:0px 5px;	cursor:pointer;	color:#fff;	background-color:var(--primary);	}
+	.cv-qrcode-share a{transition:.5s all;		}
+		.cv-qrcode-share a:hover{color:#fff;background-color:var(--primary-darker); border-radius:100%;					}
+			.cv-qrcode-share a i{float:left;height:100%;width:100%;line-height:20px;		text-align:center;		}
+
+
+
+.cv-bday-month{float:left;height:auto;width:45%; width:calc(100% - 200px);		}
+.cv-bday-day{float:left;height:auto;width:20%;margin:0px 1%; width:calc(80px - 0px); margin:0px calc(10px - 0px);				}
+.cv-bday-year{float:right;height:auto;width:25%; width:calc(100px - 0px);	}
+
+/* Covid19 Vaccine end */
+
+
+
+
+/*
+	.r-notification{margin-top:20px;}
+	.r-submit-msg{float:left;height:auto;width:94%;padding:10px 3%;width:calc(100% - 20px);padding:calc(10px - 0px);	margin-bottom:20px;	font-size:.9em;		background-color:var(--primary-lightest);	}
+*/
+
+@media screen and (max-width:1100px)	
+{
+	.r-form-panel{width:calc(100% - 450px);margin-right:50px; 	}
+}
+@media screen and (max-width:1000px)	
+{
+	.r-req-panel{width:35%;						width:calc(350px - 0px);					}
+	.r-form-panel{width:60%;margin-right:5%;	width:calc(100% - 400px);margin-right:50px; /*width:calc(100% - 450px);margin-right:50px;*/ 	}
+}
+
+@media screen and (max-width:800px)	
+{
+	.r-req-panel{width:100%;					}
+	.r-form-panel{width:100%;resize:none; overflow:visible;		}
+		.r-form{float:left;height:auto;width:90%;padding:20px 5%;margin:-30px 0px 10px 0px;width:calc(100% - 40px);padding:calc(20px - 0px);	}
+}
+
+
+
+
+
+
+
